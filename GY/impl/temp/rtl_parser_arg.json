@@ -1,0 +1,73 @@
+{
+ "Device" : "GW5A-25A",
+ "Files" : [
+  {
+   "Path" : "D:/Gowin/project/GY/src/analog_signal_acquisition.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin/project/GY/src/analog_signal_generator.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin/project/GY/src/command_parser.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin/project/GY/src/digital_signal_analyzer.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin/project/GY/src/eth_interface.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin/project/GY/src/gowin_pll/gowin_pll.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin/project/GY/src/gowin_pll/gowin_pll_mod.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin/project/GY/src/pll_init.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin/project/GY/src/serial_protocol_converter.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin/project/GY/src/top_module.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin/project/GY/src/usb_cdc_interface.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin/project/GY/src/fifo_12x4096.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin/project/GY/src/i2c_controller.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin/project/GY/src/uart_controller.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Gowin/project/GY/src/pwm_module.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "D:/Gowin/project/GY/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

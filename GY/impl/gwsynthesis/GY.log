@@ -1,0 +1,41 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'D:\Gowin\project\GY\src\analog_signal_acquisition.v'
+Analyzing Verilog file 'D:\Gowin\project\GY\src\analog_signal_generator.v'
+Analyzing Verilog file 'D:\Gowin\project\GY\src\command_parser.v'
+Analyzing Verilog file 'D:\Gowin\project\GY\src\digital_signal_analyzer.v'
+Analyzing Verilog file 'D:\Gowin\project\GY\src\eth_interface.v'
+Analyzing Verilog file 'D:\Gowin\project\GY\src\gowin_pll\gowin_pll.v'
+Analyzing Verilog file 'D:\Gowin\project\GY\src\gowin_pll\gowin_pll_mod.v'
+Analyzing Verilog file 'D:\Gowin\project\GY\src\pll_init.v'
+Analyzing Verilog file 'D:\Gowin\project\GY\src\serial_protocol_converter.v'
+Analyzing Verilog file 'D:\Gowin\project\GY\src\top_module.v'
+Analyzing Verilog file 'D:\Gowin\project\GY\src\usb_cdc_interface.v'
+Analyzing Verilog file 'D:\Gowin\project\GY\src\fifo_12x4096.v'
+Analyzing Verilog file 'D:\Gowin\project\GY\src\i2c_controller.v'
+Analyzing Verilog file 'D:\Gowin\project\GY\src\uart_controller.v'
+Analyzing Verilog file 'D:\Gowin\project\GY\src\pwm_module.v'
+Compiling module 'usb_cdc_interface'("D:\Gowin\project\GY\src\usb_cdc_interface.v":1)
+NOTE  (EX0101) : Current top module is "usb_cdc_interface"
+[5%] Running netlist conversion ...
+WARN  (CV0016) : Input spi_miso is unused("D:\Gowin\project\GY\src\usb_cdc_interface.v":20)
+WARN  (CV0016) : Input uart_rx is unused("D:\Gowin\project\GY\src\usb_cdc_interface.v":29)
+WARN  (CV0016) : Input uart_cts is unused("D:\Gowin\project\GY\src\usb_cdc_interface.v":31)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "D:\Gowin\project\GY\impl\gwsynthesis\GY.vg" completed
+[100%] Generate report file "D:\Gowin\project\GY\impl\gwsynthesis\GY_syn.rpt.html" completed
+GowinSynthesis finish

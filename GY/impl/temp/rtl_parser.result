@@ -1,0 +1,194 @@
+[
+ {
+  "InstFile" : "D:/Gowin/project/GY/src/gowin_pll/gowin_pll.v",
+  "InstLine" : 1,
+  "InstName" : "Gowin_PLL",
+  "ModuleFile" : "D:/Gowin/project/GY/src/gowin_pll/gowin_pll.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "Gowin_PLL",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/Gowin/project/GY/src/gowin_pll/gowin_pll.v",
+    "InstLine" : 25,
+    "InstName" : "u_pll",
+    "ModuleFile" : "D:/Gowin/project/GY/src/gowin_pll/gowin_pll_mod.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_PLL_MOD"
+   },
+   {
+    "InstFile" : "D:/Gowin/project/GY/src/gowin_pll/gowin_pll.v",
+    "InstLine" : 40,
+    "InstName" : "u_pll_init",
+    "ModuleFile" : "D:/Gowin/project/GY/src/pll_init.v",
+    "ModuleLine" : 4,
+    "ModuleName" : "PLL_INIT"
+   }
+  ]
+ },
+ {
+  "InstFile" : "D:/Gowin/project/GY/src/top_module.v",
+  "InstLine" : 19,
+  "InstName" : "top_module",
+  "ModuleFile" : "D:/Gowin/project/GY/src/top_module.v",
+  "ModuleLine" : 19,
+  "ModuleName" : "top_module",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/Gowin/project/GY/src/top_module.v",
+    "InstLine" : 98,
+    "InstName" : "command_parser_inst",
+    "ModuleFile" : "D:/Gowin/project/GY/src/command_parser.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "command_parser"
+   },
+   {
+    "InstFile" : "D:/Gowin/project/GY/src/top_module.v",
+    "InstLine" : 154,
+    "InstName" : "analog_signal_acquisition_inst",
+    "ModuleFile" : "D:/Gowin/project/GY/src/analog_signal_acquisition.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "analog_signal_acquisition",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/Gowin/project/GY/src/analog_signal_acquisition.v",
+      "InstLine" : 102,
+      "InstName" : "adc_fifo",
+      "ModuleFile" : "D:/Gowin/project/GY/src/fifo_12x4096.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "fifo_12x4096"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/Gowin/project/GY/src/top_module.v",
+    "InstLine" : 174,
+    "InstName" : "analog_signal_generator_inst",
+    "ModuleFile" : "D:/Gowin/project/GY/src/analog_signal_generator.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "analog_signal_generator"
+   },
+   {
+    "InstFile" : "D:/Gowin/project/GY/src/top_module.v",
+    "InstLine" : 193,
+    "InstName" : "digital_signal_analyzer_inst",
+    "ModuleFile" : "D:/Gowin/project/GY/src/digital_signal_analyzer.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "digital_signal_analyzer"
+   },
+   {
+    "InstFile" : "D:/Gowin/project/GY/src/top_module.v",
+    "InstLine" : 214,
+    "InstName" : "serial_protocol_converter_inst",
+    "ModuleFile" : "D:/Gowin/project/GY/src/serial_protocol_converter.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "serial_protocol_converter",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/Gowin/project/GY/src/serial_protocol_converter.v",
+      "InstLine" : 178,
+      "InstName" : "i2c_controller_inst",
+      "ModuleFile" : "D:/Gowin/project/GY/src/i2c_controller.v",
+      "ModuleLine" : 8,
+      "ModuleName" : "i2c_controller"
+     },
+     {
+      "InstFile" : "D:/Gowin/project/GY/src/serial_protocol_converter.v",
+      "InstLine" : 190,
+      "InstName" : "uart_controller_inst",
+      "ModuleFile" : "D:/Gowin/project/GY/src/uart_controller.v",
+      "ModuleLine" : 8,
+      "ModuleName" : "uart_controller"
+     },
+     {
+      "InstFile" : "D:/Gowin/project/GY/src/serial_protocol_converter.v",
+      "InstLine" : 209,
+      "InstName" : "pwm_generator[0].pwm_module_inst",
+      "ModuleFile" : "D:/Gowin/project/GY/src/pwm_module.v",
+      "ModuleLine" : 19,
+      "ModuleName" : "pwm_module"
+     },
+     {
+      "InstFile" : "D:/Gowin/project/GY/src/serial_protocol_converter.v",
+      "InstLine" : 209,
+      "InstName" : "pwm_generator[1].pwm_module_inst",
+      "ModuleFile" : "D:/Gowin/project/GY/src/pwm_module.v",
+      "ModuleLine" : 19,
+      "ModuleName" : "pwm_module"
+     },
+     {
+      "InstFile" : "D:/Gowin/project/GY/src/serial_protocol_converter.v",
+      "InstLine" : 209,
+      "InstName" : "pwm_generator[2].pwm_module_inst",
+      "ModuleFile" : "D:/Gowin/project/GY/src/pwm_module.v",
+      "ModuleLine" : 19,
+      "ModuleName" : "pwm_module"
+     },
+     {
+      "InstFile" : "D:/Gowin/project/GY/src/serial_protocol_converter.v",
+      "InstLine" : 209,
+      "InstName" : "pwm_generator[3].pwm_module_inst",
+      "ModuleFile" : "D:/Gowin/project/GY/src/pwm_module.v",
+      "ModuleLine" : 19,
+      "ModuleName" : "pwm_module"
+     },
+     {
+      "InstFile" : "D:/Gowin/project/GY/src/serial_protocol_converter.v",
+      "InstLine" : 209,
+      "InstName" : "pwm_generator[4].pwm_module_inst",
+      "ModuleFile" : "D:/Gowin/project/GY/src/pwm_module.v",
+      "ModuleLine" : 19,
+      "ModuleName" : "pwm_module"
+     },
+     {
+      "InstFile" : "D:/Gowin/project/GY/src/serial_protocol_converter.v",
+      "InstLine" : 209,
+      "InstName" : "pwm_generator[5].pwm_module_inst",
+      "ModuleFile" : "D:/Gowin/project/GY/src/pwm_module.v",
+      "ModuleLine" : 19,
+      "ModuleName" : "pwm_module"
+     },
+     {
+      "InstFile" : "D:/Gowin/project/GY/src/serial_protocol_converter.v",
+      "InstLine" : 209,
+      "InstName" : "pwm_generator[6].pwm_module_inst",
+      "ModuleFile" : "D:/Gowin/project/GY/src/pwm_module.v",
+      "ModuleLine" : 19,
+      "ModuleName" : "pwm_module"
+     },
+     {
+      "InstFile" : "D:/Gowin/project/GY/src/serial_protocol_converter.v",
+      "InstLine" : 209,
+      "InstName" : "pwm_generator[7].pwm_module_inst",
+      "ModuleFile" : "D:/Gowin/project/GY/src/pwm_module.v",
+      "ModuleLine" : 19,
+      "ModuleName" : "pwm_module"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/Gowin/project/GY/src/top_module.v",
+    "InstLine" : 249,
+    "InstName" : "eth_interface_inst",
+    "ModuleFile" : "D:/Gowin/project/GY/src/eth_interface.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "eth_interface"
+   },
+   {
+    "InstFile" : "D:/Gowin/project/GY/src/top_module.v",
+    "InstLine" : 297,
+    "InstName" : "pll_init_inst",
+    "ModuleFile" : "D:/Gowin/project/GY/src/pll_init.v",
+    "ModuleLine" : 4,
+    "ModuleName" : "PLL_INIT"
+   }
+  ]
+ },
+ {
+  "InstFile" : "D:/Gowin/project/GY/src/usb_cdc_interface.v",
+  "InstLine" : 1,
+  "InstName" : "usb_cdc_interface",
+  "ModuleFile" : "D:/Gowin/project/GY/src/usb_cdc_interface.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "usb_cdc_interface"
+ }
+]
